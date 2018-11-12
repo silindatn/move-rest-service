@@ -1,0 +1,16 @@
+{
+    "my-logger": {
+        "file": {
+            "formatter": "splunk",
+            "filename": "./log.txt",
+            "level": "debug",
+            "silent": false,
+            "colorize": false,
+            "maxsize": 819200000000,
+            "maxFiles": 100,
+            "json": false,
+            "zippedArchive": false,
+            "fsoptions": {"flags": "a"}
+        }
+    }
+}
